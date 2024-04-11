@@ -1,0 +1,49 @@
+#myDiv {
+  text-align: center;
+  border: solid;
+  border-radius: 15px;
+  border-color: hsl(0, 2%, 20%);
+  width: auto;
+  height: 200px;
+  padding-top: 20px;
+  background-color: hsl(0, 2%, 20%);
+}
+#myLabel {
+  font: 2em sans-serif;
+  color: white;
+}
+
+#mySubmit {
+  width: 100px;
+  height: 25px;
+  color: white;
+  background-color: hsl(21, 100%, 30%);
+  border: none;
+  border-radius: 15px;
+  font-family: Helvetica, sans-serif;
+  cursor: pointer;
+  box-shadow: 100px;
+}
+
+#mySubmit:hover {
+  background-color: hsl(21, 100%, 50%);
+}
+#mySubmit:active {
+  background-color: hsl(21, 100%, 70%);
+}
+
+#myInput {
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(0, 1%, 41%);
+  color: white;
+  font-size: large;
+  font-family: Helvetica, sans-serif;
+}
+
+#myOutput {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
